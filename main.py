@@ -191,7 +191,7 @@ with tab2:
         
 
 with tab3:
-        df_day = pd.read_csv("C:\\Users\\Mario\\Downloads\\dicoding project 2\\data\\new_data.csv")
+        df_day = pd.read_csv("new_data.csv")
         df_day['date'] = pd.to_datetime(df_day['date'])
         
         min_date = df_day['date'].min()
