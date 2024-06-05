@@ -9,7 +9,7 @@ st.write('Bike sharing systems are new generation of traditional bike rentals wh
 st.markdown('- Python libraries: numpy, pandas, streamlit, matplotlib, seaborn')
 st.markdown('- Data source: https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset/data')
 
-df_hour = pd.read_csv("C:\\Users\\Mario\\Downloads\\dicoding project 2\\data\\hour.csv")
+df_hour = pd.read_csv("hour.csv")
 df_hour['dteday'] = pd.to_datetime(df_hour['dteday'])
 
 
