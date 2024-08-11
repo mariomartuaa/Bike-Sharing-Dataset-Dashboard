@@ -12,8 +12,6 @@ st.markdown('- Data source: https://www.kaggle.com/datasets/lakshmi25npathi/bike
 df_hour = pd.read_csv("hour.csv")
 df_hour['dteday'] = pd.to_datetime(df_hour['dteday'])
 
-st.table(df.describe().T)
-
 tab1, tab2, tab3 = st.tabs(["Dataset Table", "Counting Hourly", " Counting Time Span"])
 
 with tab1:
